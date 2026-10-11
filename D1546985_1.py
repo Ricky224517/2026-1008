@@ -1,4 +1,4 @@
-x = int(input("請輸入一個0~15的整數:"))
+x = int(input())
 a = str(x//8%2) + str(x//4%2) + str(x//2%2) + str(x%2)
 b = str(x//8%2) + str(x%8) 
 c = str(x%16)
